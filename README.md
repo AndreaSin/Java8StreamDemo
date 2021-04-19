@@ -1,1 +1,2 @@
-Java8StreamDemo
+Serie di esercizi di demo con commenti a proposito degli Stream in java8
+consiglio di partire con il filter (DriverFilter), da li approfondire il concetto di operazioni lazy (DriverLazyStream) e infine tutto il resto
