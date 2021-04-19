@@ -38,7 +38,9 @@ public class DriverFilter {
 		// posso concatenare i predicate
 		Stream<Person> stream3 = persons.stream();
 		Predicate<Person> p1 = i -> i.getAge() > 20;
+		//Predicate<Person> p2 = i -> i.getAge() < 31;
 		Predicate<Person> p2 = i -> i.getAge() < 31;
+		
 		Predicate<Person> p3 = p1.and(p2);
 		
 		Stream<Person> filtered2 = stream3.filter(p3);
