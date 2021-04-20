@@ -17,10 +17,11 @@ public class DriverMap {
 		List<Person> persons = new ArrayList<Person>();
 		persons.add(new Person ("Andrea", 32));persons.add(new Person ("Lucia", 30));persons.add(new Person ("Sergio", 15));
 		Stream<Person> personsStream = persons.stream();
-		
+		System.out.println("ages");
 		personsStream
 			.map(p -> p.getAge())
 			.forEach(System.out::println);
+			//.forEach(a -> System.out.println(a));
 		
 		// TODO da rifare..
 		// ___FLATMAP___

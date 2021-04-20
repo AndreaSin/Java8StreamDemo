@@ -21,7 +21,6 @@ public class DriverReduction {
 		Stream<Integer> stream2= Stream.of(1,2,3);
 		Optional<Integer> minAge = 
 				stream2.max(Comparator.naturalOrder());
-		
 		System.out.println(minAge.get());
 		
 	}
